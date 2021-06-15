@@ -5,9 +5,36 @@
 }
 
 *{
-    padding: 05rem;
+    /* padding: 0.5rem; */
     border: 1px solid rgb(225,225,225)
 }
 
 body{ border: none;}
 html{ border: none;}
+
+/* ---------------  adding the images ------------------------ */
+
+.bg-image-multi{
+    background-image: url('/images/the-surf-co-multiple-board-4.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+.bg-image-barrel{
+    background-image: url('/images/the-surf-co-barrel-1.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+/*  ---------- Universal styling ------------------ */
+
+.padded{
+    padding: 5%;}
+
+.padded-sm{
+    padding: 2%;}
+
+.bg-aqua{
+    background-color:aquamarine;
+
+}

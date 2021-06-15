@@ -5,10 +5,16 @@
 <!------------- Add all our external resources & metadata ------------->
 <head>
 
+    <!--------------- title url display name  -->
+        <title> The surf co</title>
 
     <!----------- This our font awsome link for icons --------------------- -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+
+    <!---------------------- Gridlex formating  ------------------- -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
 
 <!------- customise stylesheet always last --------->
@@ -21,26 +27,26 @@
 <body>
 
 <!----------------- Header ------------------------------------------- -->
-    <header>
-        <h3> glide like a dolphin</h3>
-        <h1> the ultimate surfboard solution</h1>
+    <header class="padded">
+        <h3 class="padded-sm"> glide like a dolphin</h3>
+        <h1 class="padded-sm"> the ultimate surfboard solution</h1>
 
     </header>
 <!------------------------- Gallery section ------------------------- -->
-    <section>
-        <div>
+    <section class="grid padded">
+        <div class="col-6 padded-sm">
             <h3> Built to last a lifetime</h3>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod id accusantium culpa ut fuga et, temporibus repudiandae doloremque soluta, quae eaque magnam at autem numquam ipsa incidunt quam quas!
             </p>
 
         </div>
-        <div>
+        <div class="bg-image-multi col-6">
             <!--  background image -multiple surfboard  -->
         </div>
-        <div> 
+        <div class="bg-image-barrel col-6"> 
             <!------- background image - barrel 1 ------ -->
         </div>
-        <div>
+        <div class="col-6 padded-sm">
             <h3> so fast you'll love it</h3>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut beatae odio. Accusamus eos sed doloribus incidunt quas corrupti quaerat dolorem labore, reprehenderit, quae vitae veniam voluptates consequatur delectus vel.</p>
             
@@ -48,35 +54,61 @@
     </section>
 
     <!-------------------  Feature section --------------------------- -->
-    <section>
-        <div>
+    <section class="grid padded bg-aqua">
+        <div class="col-12">
             <h3> Awesome board features </h3>
         </div>
-        <div>
+        <div class="col-3 padded-sm">
             <i class="fas fa-unlock"></i>
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero nisi obcaecati quo quidem itaque facere nam ullam corrupti, soluta recusandae perspiciatis laborum maiores. Consequuntur aperiam maiores dolorum veniam, doloremque amet!</p>
         </div>
-        <div>
+        <div class="col-3 padded-sm">
             <i class="fas fa-unlock"></i>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis incidunt excepturi rerum fugit vero ipsam sapiente, in inventore, repellendus odio, officia at unde explicabo delectus? Similique praesentium placeat tempore!</p>
         </div>
-        <div>
+        <div class="col-3 padded-sm">
             <i class="fas fa-unlock"></i>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor, unde velit ipsa, ipsam quas nemo facere voluptates temporibus molestias eos similique corporis. Suscipit nam, optio distinctio quasi laboriosam quo!</p>
         </div>
-        <div>
+        <div class="col-3 padded-sm">
             <i class="fas fa-unlock"></i>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non accusamus eos debitis eum aliquid ex, nisi nulla quia atque vel. Laudantium harum neque qui eius aperiam illum esse quam!</p>
         </div>
     </section>
+    <!---------------- Quote banner section ------------------------------------ -->
 
+    <section class="padded grid-center">
+        <h3> never understand to power of a wave and a great board </h3>
+    </section>
 
+    <!------------------- Customer testimonial section --------------------------------- -->
 
+    <section class="grid padded">
+        <div class="col-1">
+            <span> " </span>
+        </div>
+        <div class="col-10">
+            <p class="padded-sm"> I've never experience surfing like this.These boards are amazing I want everyone I know to have one</p>
+            <p class="padded-sm"> - A very stoked customer</p>
+        </div>
+        <div class="col-1">
+            <span> " </span>
+        </div>
+    </section>
+    <!--------------------------The Footer ---------------------------------- -->
 
-
-
-
-
+    <footer class="padded grid-spaceBetween bg-aqua">
+        <div class="padded-sm col-4">
+            <h3 class="padded-sm"> Let's connect</h3>
+            <p class="padded-sm"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, enim nobis, iste voluptas corporis esse laudantium magni iusto modi delectus ex provident rerum explicabo minus earum atque quos quo cum.</p>
+        </div>
+        <div class="padded-sm col-5">
+            <p class="padded-sm"> Call: 04555 5555</p>
+            <p class="padded-sm"> Email: hellow@surf.co</p>
+            <p class="padded-sm"> Store: 55 Ocean street, Torquay</p>
+            <p class="padded-sm"> Instagram: @thesurfco</p>
+        </div>
+    </footer>
 
 
 
